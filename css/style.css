@@ -6,3 +6,30 @@ body {
 
 // Don't delete the body styling, as some of the selectors might not work well
 
+
+li{
+
+}
+
+
+li:nth-child(even) {
+	color: green;
+}
+
+li:nth-child(3) {
+	background-color: lightblue;
+}
+li:first-of-type {
+	border-top: 1px solid green;
+}
+li:last-of-type {
+	border-bottom: 5px dotted blue;
+}
+
+li:nth-child(3) a , li:nth-child(5) a {
+	color: red;
+}
+
+li:nth-child(5) a:hover {
+	color: gray;
+}
